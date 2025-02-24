@@ -12,7 +12,7 @@ ms.collection: Tier2
 recommendations: false 
 ai-usage: ai-assisted
 description: Learn how to use preferences for Microsoft AutoUpdate (MAU) in Microsoft 365 Enterprise to meet the needs of various users.
-ms.date: 09/13/2024 
+ms.date: 02/24/2025
 ---  
 
 # Configuring Preferences for Microsoft AutoUpdate (MAU) in Microsoft 365 Enterprise
@@ -66,8 +66,8 @@ Specifies how Microsoft AutoUpdate checks for updates.
 | Type            | String |
 | Default Value   | AutomaticDownload |
 | Manageable      | Yes |
-| Accepted Values | AutomaticDownload<br>AutomaticCheck |
-| Comments        | Not having this entry, or having an invalid entry reverts MAU to the default 'AutomaticDownload' mode.<br><br>AutomaticDownload – MAU checks for updates on regular intervals and push updates automatically. Indication an app needs to close in order to complete the update is displayed either in app, or via notification.<br><br>AutomaticCheck – MAU regularly checks for updates and launches the GUI when it detects an available update. The user initiates the update sequence from the GUI.<br>Manual - MAU checks only for its own updates, not for other updates. This option has been removed from GUI. Setting to Manual results in MAU not offering updates automatically. The following value is deprecated: <ul><li>Automatic – replaced by AutomaticCheck</li></ul><br>Note: Even though Manual setting is deprecated, MAU continues to honor it for the time being. Setting to Manual results in MAU not offering updates automatically. |
+| Accepted Values | AutomaticDownload<br>AutomaticCheck<br>Manual |
+| Comments        | Not having this entry, or having an invalid entry reverts MAU to the default 'AutomaticDownload' mode.<br><br>AutomaticDownload – MAU checks for updates on regular intervals and push updates automatically. Indication an app needs to close in order to complete the update is displayed either in app, or via notification.<br><br>AutomaticCheck – MAU regularly checks for updates and launches the GUI when it detects an available update. The user initiates the update sequence from the GUI.<br>Manual - MAU checks only for its own updates, not for other updates. This option has been removed from GUI. Setting to Manual results in MAU not offering updates automatically. The following value is deprecated: <ul><li>Automatic – replaced by AutomaticCheck</li></ul><br> Setting to Manual results in MAU not offering updates automatically. |
 
 ## ChannelName
 
