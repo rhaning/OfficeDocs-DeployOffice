@@ -511,6 +511,27 @@ For more information, see: [Set a deadline for updates from Microsoft AutoUpdate
 Here's an example of the prompt that displays.
 :::image type="content" source="../mac/media/mau-preferences/update-countdown-notice.large.png" alt-text="Close-up of a Microsoft AutoUpdate notification with a countdown timer set to 59 minutes and 53 seconds. The message states, 'Your admin has setup a deadline for the updates' and advises the user to save their data and close the following apps before the deadline, with the Microsoft Word icon shown. The button at the bottom reads 'Quit Apps and Update.'" lightbox="../mac/media/mau-preferences/update-countdown-notice.large.png":::
 
+## UpdateDeadline.ShowRemainingDaysAndHours
+
+Determines whether to show remaining days and hours instead of target date. 
+Available from MAU 4.78
+
+| Category | Details |
+| --- | --- |
+| Domain | com.microsoft.autoupdate2 |
+| Type | Boolean |
+| Default Value | FALSE |
+| Manageable | Yes |
+| Comments | When set to TRUE, displays the remaining days and hours. When set to FALSE, displays the target date. |
+
+Example of set to TRUE.
+
+:::image type="content" source="../mac/media/mau-preferences/admin-update-deadline-daysremaining.large.png" alt-text="A Microsoft AutoUpdate alert that reads 'in 2 Days and 4 hours Your organization is enforcing app updates' Below is the instruction to save data and close apps before the deadline with a Microsoft Word icon, accompanied by 'Snooze' and 'Update' buttons." lightbox="../mac/media/mau-preferences/admin-update-deadline-daysremaining.large.png"::: 
+
+Example of set to FALSE.
+
+:::image type="content" source="../mac/media/mau-preferences/admin-update-deadline-targetdate.large.png" alt-text="A Microsoft AutoUpdate alert that reads 'Jan 9, 2025 Your organization is enforcing app updates' Below is the instruction to save data and close apps before the deadline with a Microsoft Word icon, accompanied by 'Snooze' and 'Update' buttons." lightbox="../mac/media/mau-preferences/admin-update-deadline-targetdate.large.png":::
+
 ## UpdateDeadline.StartAutomaticUpdates
 
 Number of days before forced update date that MAU treats every update as AutomaticDownload.
